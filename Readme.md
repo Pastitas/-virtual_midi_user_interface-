@@ -33,7 +33,6 @@ Should I build on top of what we already have, creating an option within the lay
 
 Either of those would require me to write an editor application, which I would love to be able to have integrated in the webconf tool or run as a web app since that means cross compatibility (and then you copy your json file over to a certain folder.
 
-Thanks for your help so far @riban, here’s hoping to become one of the dwarfs
 
 # Next post
 
@@ -105,5 +104,3 @@ Developing a portable python app, and, when it’s functional, try to either mak
 This would make so if you have a bigger controller or screen and want more/less parameters on view, you are able to control that and the order in wich parameters appear, and also make it possible to arrange the parameters in pages with titles like FILTER, OSC, LFO, ENV etc so that they make more sense and are grouped together in a more meaningful way.
 
 All this to say, I’ve been thinking a lot on this but not developing much. I hope I can bring you some :face_with_monocle: from this interface sooner rather than later.
-
-PD: I would be really grateful for any kind of feedback, particularly from the more seasoned (and grounded) zynthian developers @jofemodo @riban @wyleu, and sorry to bother you, please tell me If this is too intrusive. I just want to make sure to be aligned with something that is, at least in principle, useful and *zynthianic* before I sink a bunch of time into it.
