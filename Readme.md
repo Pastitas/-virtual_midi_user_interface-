@@ -2,7 +2,7 @@ https://discourse.zynthian.org/t/custom-ui-ambitions-or-maybe-some-day-the-contr
 
 I got the core UI design concepts done and also some of the data structures, let’s start with the UI:
 
-![UI Design](upload://yiLz3tKz8TKELTQyHG4sa3fPauL)
+![UI Design](/media/Ui.png)
 
 There is a main grid with an X/Y grid of values (i find that for the official 3.2 inch screen 4x4 works, but it’s already the max) and Z pages (this can be arranged manually) that keeps each parameter binding in it’s own dict, and organizes them.
 
@@ -51,7 +51,7 @@ I the app you specify the following for each knob/slider/button:
 
 The idea is, by using the screen, creating a configurable midi controller grid, like this one
 
-> ![UI Design](upload://yiLz3tKz8TKELTQyHG4sa3fPauL)
+> ![UI Design](/media/Ui.png)
 >
 >
 >
