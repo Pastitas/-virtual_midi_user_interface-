@@ -20,7 +20,7 @@ class Sketchpad(Canvas):
         self.save_posn(event)
 
 
-class uigridblock(Radiobutton):
+class uigridblock(Button):
     def __init__(self, parent, **kwargs):
         super().__init__(parent, **kwargs)
 
@@ -31,12 +31,8 @@ class uigridblock(Radiobutton):
             variable=switch_variable,
             indicatoron=False,
             value="off",
-            width=8,
+            width=10,
         )
-
-
-tkinter.Button()
-
 
 class midigrid:
     def __init__(self, root):
@@ -218,8 +214,8 @@ class midigrid:
                     root,
                     borderwidth=2,
                     relief="solid",
-                    height=100,
-                    width=100,
+                    height=40,
+                    width=40,
                     text=page[grid_block]["label"],
                 )
             )
@@ -232,7 +228,7 @@ class midigrid:
                 rowpos += 1
                 colpos = 0
             # s = Sketchpad(ui_grid_block, borderwidth=0, height=100, width=100)
-            s = uigridblock(ui_grid_block, borderwidth=0, height=100, width=100)
+            s = uigridblock(ui_grid_block, borderwidth=0,)
             s.grid(column=colpos, row=rowpos, sticky=(N, W, E, S))
 
         for child in root.winfo_children():
