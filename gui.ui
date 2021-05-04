@@ -1,0 +1,703 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object id="Frame_2" class="ttk.Frame">
+    <property name="height">480</property>
+    <property name="width">800</property>
+    <layout>
+      <property name="column">0</property>
+      <property name="propagate">True</property>
+      <property name="row">0</property>
+    </layout>
+    <child>
+      <object id="Labelframe_1" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="takefocus">true</property>
+        <property name="text" translatable="yes">Parameter-1</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_1" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="from_">0</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="to">127</property>
+            <property name="variable">string:parameter_1</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_1" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_2" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-2</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_2" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_2</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_2" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_3" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-3</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">2</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_3" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_3</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_3" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_4" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-4</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">3</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_4" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_4</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_4" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_5" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-5</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_5" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_5</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_5" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_6" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-6</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_6" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_6</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_6" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_7" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-7</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">2</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_7" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_7</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_7" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_8" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-8</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">3</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_8" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_8</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_8" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_9" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-9</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_9" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_9</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_9" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_10" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-10</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_10" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_10</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_10" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_11" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-11</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">2</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_11" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_11</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_11" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_12" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-12</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">3</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_12" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_12</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_12" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_13" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-13</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_13" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_13</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_13" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_14" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-14</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_14" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_14</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_14" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_15" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-15</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">2</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_15" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_15</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_15" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object id="Labelframe_16" class="ttk.Labelframe">
+        <property name="height">200</property>
+        <property name="labelanchor">n</property>
+        <property name="text" translatable="yes">Parameter-16</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">3</property>
+          <property name="columnspan">1</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+          <property name="rowspan">1</property>
+        </layout>
+        <child>
+          <object id="Scale_16" class="ttk.Scale">
+            <property name="cursor">cross</property>
+            <property name="length">90</property>
+            <property name="orient">horizontal</property>
+            <property name="variable">string:parameter_16</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">1</property>
+              <property name="ipadx">5</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="rowspan">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object id="Ctrl_label_16" class="ttk.Label">
+            <property name="text" translatable="yes">Ctrl_label</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
